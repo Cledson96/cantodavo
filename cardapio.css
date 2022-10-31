@@ -1,24 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body{
-    background-image:   url(fundo.jpg);
+body {
+    background-image: url(fundo.jpg);
 }
-H1{
+
+H1 {
     font-size: 22px;
     font-family: 'Lobster', cursiva;
-    color:aliceblue;
+    color: aliceblue;
     margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-H2{
+h2 {
     font-size: 22px;
     font-family: 'Lobster', cursiva;
-    color:aliceblue;
+    color: aliceblue;
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.conteudo {
+    position: fixed;
+    top: 120px;
+    width: 100vw;
+    margin-right: 10px;
+    height: 100%;
+
+}
+
+h3 {
+    font-family: 'Bubblegum Sans', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(172, 24, 5);
+
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 25px;
+
+}
+
+li {
+    margin-right: 25px;
+    margin-top: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
+.preco{
+    font-size: 20px;
+    color: green;
+    font-weight: 900;
 }
